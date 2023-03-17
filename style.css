@@ -1,0 +1,177 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: whitesmoke;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
+button {
+  background-color: aqua;
+  padding: 5px 10px;
+}
+
+header {
+  background-color: darkgray;
+  min-height: 50px;
+  padding: 20px;
+  margin: 0 auto;
+  /* gap: 20px; */
+}
+
+a {
+  color: dodgerblue;
+}
+
+ul.flex {
+  list-style: none;
+}
+
+ul {
+  font-size: x-large;
+  list-style: none;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.backgrounds-container {
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 20px; */
+}
+
+.background {
+  min-width: 600px;
+  margin: auto auto;
+  /* background-color: beige; */
+  min-height: 1000px;
+  /* display: flex; */
+  /* flex-wrap: wrap;
+  justify-content: space-between;
+  justify-content: center; */
+  /* gap: 20px; */
+  padding: 50px;
+}
+
+.sidenav-background {
+  margin: auto auto;
+  min-width: 400px;
+  /* background-color: blanchedalmond; */
+  min-height: 1000px;
+  /* display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  justify-content: center; */
+  /* gap: 20px; */
+  padding: 50px;
+}
+
+/* jane doe's info */
+.mainbox {
+  background-color: darkgray;
+  min-width: 500px;
+  height: 400px;
+  margin: 50px;
+  position: relative;  
+  /* padding: 50px; */
+  /* display: flex; */
+  /* justify-content: space-between; */
+  /* align-items: flex-end; */
+}
+
+.mainbox-header {
+  background-color: lightskyblue;
+  min-width: 500px;
+  height: 100px;
+}
+
+.janedoepic {
+  height: 100px;
+  width: 100px;
+  margin-top: 50px;
+  margin-left: 30px;
+}
+
+.smallpic {
+  height: 20px;
+  /* margin: 5px; */
+}
+
+.tinypic {
+  height: 50px;
+  border-radius: 50%;
+}
+
+#janedoe-content {
+  position: absolute;
+  bottom: 40px;
+  left: 20px;
+  padding: 20px;
+}
+
+/* connection request box */
+.sidebox1 {
+  background-color: black;
+  min-width: 300px;
+  height: 300px;
+  /* display: flex; */
+  margin: 50px;
+}
+
+.sidebox1-header {
+  background-color: darkgrey;
+  min-width: 300px;
+  height: 60px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: x-large;
+  text-align: center;
+}
+
+/* your connections box */
+.sidebox2 {
+  background-color: black;
+  min-width: 300px;
+  height: 500px;
+  margin: 50px;
+  /* padding-left: 50px; */
+  /* display: flex; */
+  /* align-self: flex-start; */
+}
+
+.sidebox2-header {
+  background-color: darkgray;
+  min-width: 300px;
+  height: 60px;
+  padding: 20px;
+  margin-bottom: 20px;
+  font-size: x-large;
+  text-align: center;
+}
+
+/* Education box */
+.bottombox {
+  background-color: black;
+  min-width: 500px;
+  height: 400px;
+  margin: 50px;
+  /* padding: 20px; */
+  text-align: start;
+}
+
+.bottombox-header {
+  background-color: grey;
+  width: 100%;
+  height: 60px;
+  padding: 20px;
+  text-align: start;
+  font-size: x-large;
+  margin-bottom: 20px;
+}
